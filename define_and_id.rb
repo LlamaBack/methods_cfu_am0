@@ -9,19 +9,29 @@
 
 # YOU DO the rest:
 
-
+#include method is called on the string object "Hello World"
+#"Hello" String passed; .include? checks to see if the passed string is included in the string object
+#returns true
 "Hello World".include?("Hello")
 
 
+#end_with? method is called on the string object "Hello World"
+#"Hello" String passed; .end_with? checks to see if the passed string is at the end of the string object
+#returns false
 "Hello World".end_with?("Hello")
 
 
+#end_with? method is called on the string object "Hello World"
+#"rld" String passed; .end_with? checks to see if the passed string is at the end of the string object
+#returns true
 "Hello World".end_with?("rld")
 
-
+#even? method is called on the integer 12
+#no arguments passed; .even? checks to see if the integer is even
+#returns false
 12.even?
 
-
+#next method is called on the integer 18
+#no arguments passed; returns the following integer
+#returns 19
 18.next
-
-
